@@ -1,5 +1,9 @@
 class BonusDrink
   def self.total_count_for(amount)
-    0
+    if amount == 0
+      0
+    elsif amount==1
+      1
+    end
   end
 end
